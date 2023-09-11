@@ -1,0 +1,25 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 20px;
+    /* position: absolute; */
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.cart-container {
+    background-color: burlywood;
+    text-align: center;
+    height: 300px;
+    border-radius: 8px;
+    position: fixed;
+    right: 0;
+    top: 100px;
+    z-index: 10;
+    width: 300px;
+
+}
